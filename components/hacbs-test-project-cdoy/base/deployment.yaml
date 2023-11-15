@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: hacbs-test-project-cdoy
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/rycole-appstudio/integration1-weue-tenant/integ-app-ekea/hacbs-test-project-cdoy@sha256:8c1e9e45921473a0ec65875ee2fe1e441d1b7071538566d6b553ac5f36ea23df
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
